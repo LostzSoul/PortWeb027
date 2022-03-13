@@ -1,0 +1,368 @@
+div
+{
+    text-align: center;
+}
+body
+{
+    background-color: rgb(47, 47, 47);
+}
+#My_Pic
+{
+    width: 50%;
+    border-radius: 20% ;
+    
+    border: 20px solid rgb(19, 197, 78);
+   
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 5px;
+    border: 10px solid black ;
+    background-color: black;
+    
+}
+#Face
+{
+    grid-column: 1 / span 1;
+    
+    padding-top: 3%;
+    background-color: rgb(8, 85, 34);
+    
+}
+#Name
+{
+    /*background-color: rgb(8, 90, 63);*/
+    grid-column: 2 / span 1;
+    font-size: 50px;
+    color: azure;
+    padding-top: 0.5%;
+    background-color: rgb(8, 85, 34);
+    border: 100px solid rgb(50, 146, 63);
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+#Contact
+{
+    grid-column: 1 / span 1;
+    background-color: rgb(97, 97, 97);
+    color: azure;
+}
+#Exp
+{
+    grid-column: 2 / span 1;
+    background-color: rgb(192, 192, 192);
+    color: rgb(56, 56, 56);
+}
+#Skill
+{
+    grid-column: 1 / span 1;
+    background-color: rgb(97, 97, 97);
+    color: azure;
+}
+#Project
+{
+    grid-column: 2 / span 1;
+    background-color: rgb(192, 192, 192);
+    color: rgb(56, 56, 56);
+}
+#Ref
+{
+    grid-column: 1 / span 2;
+    background-color: rgb(24, 24, 24);
+    color: rgb(144, 144, 144);
+}
+#ProName
+{
+    grid-column: 1 / span 2;
+    font-size: 50px;
+    color: azure;
+    padding-top: 0.5%;
+    background-color: rgb(8, 85, 34);
+    border: 10px solid rgb(50, 146, 63);
+    border-left: 0px;
+    border-right: 0px;
+}
+#Pic1
+{
+    grid-column: 1 / span 1;
+    background-color: rgb(97, 97, 97);
+        color: azure;
+    
+}
+#Data1
+{
+    grid-column: 2 / span 1;
+    background-color: rgb(192, 192, 192);
+    color: rgb(56, 56, 56);
+}
+#Pic2
+{
+    grid-column: 1 / span 1;
+    background-color: rgb(97, 97, 97);
+        color: azure;
+    
+}
+#Data2
+{
+    grid-column: 2 / span 1;
+    background-color: rgb(192, 192, 192);
+    color: rgb(56, 56, 56);
+}
+#Pic3
+{
+    grid-column: 1 / span 1;
+    background-color: rgb(97, 97, 97);
+        color: azure;
+    
+}
+#Data3
+{
+    grid-column: 2 / span 1;
+    background-color: rgb(192, 192, 192);
+    color: rgb(56, 56, 56);
+}
+#Pic4
+{
+    grid-column: 1 / span 1;
+    background-color: rgb(97, 97, 97);
+        color: azure;
+    
+}
+#Data4
+{
+    grid-column: 2 / span 1;
+    background-color: rgb(192, 192, 192);
+    color: rgb(56, 56, 56);
+}
+#Back
+{
+    grid-column: 1 / span 2;
+    background-color: rgb(24, 24, 24);
+    color: rgb(144, 144, 144);
+}
+@media only screen and (max-width: 1440px)
+{
+    .grid-container
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 5px;
+        border: 10px solid black ;
+        background-color: black;
+        margin: auto;
+    }
+    #Face
+    {
+        grid-column: 1 / span 1;
+        
+        padding-top: 3%;
+        background-color: rgb(8, 85, 34);
+        
+    }
+    #Name
+    {
+        /*background-color: rgb(8, 90, 63);*/
+        grid-column: 1 / span 1;
+        font-size: 150%;
+        color: azure;
+        padding-top: 0.5%;
+        background-color: rgb(8, 85, 34);
+        border: 100px solid rgb(50, 146, 63);
+        border-left: 0px;
+        border-right: 0px;
+        
+    }
+    #Contact
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(97, 97, 97);
+        color: azure;
+    }
+    #Exp
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(192, 192, 192);
+        color: rgb(56, 56, 56);
+    }
+    #Skill
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(97, 97, 97);
+        color: azure;
+    }
+    #Project
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(192, 192, 192);
+        color: rgb(56, 56, 56);
+    }
+    #Ref
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(24, 24, 24);
+        color: rgb(144, 144, 144);
+    }
+    #ProName
+    {
+        grid-column: 1 / span 1;
+        font-size: 50px;
+        color: azure;
+        padding-top: 0.5%;
+        background-color: rgb(8, 85, 34);
+        border: 10px solid rgb(50, 146, 63);
+        border-left: 0px;
+        border-right: 0px;
+    }
+    #Pic1
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(97, 97, 97);
+            color: azure;
+        
+    }
+    #Data1
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(192, 192, 192);
+        color: rgb(56, 56, 56);
+    }
+    #Pic2
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(97, 97, 97);
+            color: azure;
+        
+    }
+    #Data2
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(192, 192, 192);
+        color: rgb(56, 56, 56);
+    }
+    #Pic3
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(97, 97, 97);
+            color: azure;
+        
+    }
+    #Data3
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(192, 192, 192);
+        color: rgb(56, 56, 56);
+    }
+    #Pic4
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(97, 97, 97);
+            color: azure;
+        
+    }
+    #Data4
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(192, 192, 192);
+        color: rgb(56, 56, 56);
+    }
+    #Back
+    {
+        grid-column: 1 / span 1;
+        background-color: rgb(24, 24, 24);
+        color: rgb(144, 144, 144);
+    }
+}
+
+.Intel
+{
+    text-align: left;
+    font-size: 120%;
+}
+
+#Unity
+{
+    width: 25%;
+    border-radius: 80% ;   
+    border: 10px solid rgb(19, 197, 78);
+    background-color: rgb(255, 255, 255);
+}
+
+#VS
+{
+    width: 25%;
+    border-radius: 80% ;
+    border: 10px solid rgb(19, 197, 78);
+    background-color: rgb(255, 255, 255);
+}
+#Maya
+{
+    width: 25%;
+    border-radius: 80% ;
+    border: 10px solid rgb(19, 197, 78);
+    background-color: rgb(255, 255, 255);
+}
+#Animate
+{
+    width: 25%;
+    border-radius: 80% ;
+    border: 10px solid rgb(19, 197, 78);
+    background-color: rgb(255, 255, 255);
+}
+#Github
+{
+    width: 25%;
+    border-radius: 80% ;
+    border: 10px solid rgb(19, 197, 78);
+    background-color: rgb(255, 255, 255);
+}
+
+#Go
+{
+    font-size: 130%;
+}
+#GoButton
+{
+    font-size: 130%;
+    color: azure;
+    background-color: rgb(97, 97, 97); ;
+    border: #209e5b dashed 5px;
+}
+#Afterlife
+{
+    width: 80%;
+    /* padding-top: 1%; */
+    /* border-radius: 10% ;
+    border: 10px solid rgb(19, 197, 78);
+    background-color: rgb(255, 255, 255); */
+}
+#RunRace
+{
+    width: 80%;
+}
+#Ant
+{
+    width: 80%;
+}
+#EastVenic
+{
+    width: 80%;
+}
+a:link{
+	color: #0f96f0; 
+} 
+
+a:visited{
+	color: #209e5b; 
+} 
+
+ a:hover{ 
+	color: #eb0b0b; 
+} 
+hr
+{
+   border: dashed rgb(255, 255, 255);
+}
